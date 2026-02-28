@@ -1,0 +1,501 @@
+seller_id,product_id,product_name,category,region,stock_quantity,monthly_sales
+1091,636,Backpack,Bags,Madurai,71,89
+1099,443,Backpack,Bags,Salem,55,39
+1068,800,Bracelet,Accessories,Villupuram,229,19
+1066,628,Bracelet,Accessories,Coimbatore,55,81
+1036,821,Lunch Box,Home Goods,Tirunelveli,144,9
+1039,856,Bangles,Accessories,Salem,56,17
+1057,899,Saree,Textiles,Villupuram,299,6
+1015,618,Running Shoes,Footwear,Tirunelveli,268,6
+1011,868,Running Shoes,Footwear,Salem,122,47
+1068,593,Necklace,Accessories,Erode,71,55
+1017,364,Backpack,Bags,Madurai,76,76
+1035,111,Shirt,Textiles,Salem,106,31
+1088,477,Kurti,Textiles,Villupuram,223,18
+1027,750,Storage Box,Home Goods,Salem,112,42
+1066,128,Bangles,Accessories,Erode,142,39
+1024,306,Slippers,Footwear,Coimbatore,31,94
+1014,575,Storage Box,Home Goods,Salem,131,29
+1074,166,Water Bottle,Home Goods,Salem,144,51
+1055,236,Handbag,Bags,Salem,121,37
+1027,701,Kurti,Textiles,Erode,136,25
+1082,528,Shirt,Textiles,Tirunelveli,164,27
+1013,127,Travel Bag,Bags,Erode,57,33
+1060,853,Running Shoes,Footwear,Tirunelveli,198,17
+1024,990,Running Shoes,Footwear,Madurai,36,53
+1034,422,Backpack,Bags,Villupuram,213,27
+1087,359,Backpack,Bags,Salem,66,29
+1014,809,Necklace,Accessories,Villupuram,229,14
+1017,266,Backpack,Bags,Erode,94,48
+1001,132,Earrings,Accessories,Villupuram,260,19
+1002,778,Backpack,Bags,Villupuram,178,26
+1028,247,Travel Bag,Bags,Salem,135,38
+1052,410,Slippers,Footwear,Erode,95,59
+1075,776,Shirt,Textiles,Erode,73,57
+1009,525,Running Shoes,Footwear,Salem,84,23
+1063,297,Backpack,Bags,Salem,99,32
+1013,212,Saree,Textiles,Coimbatore,25,60
+1090,255,Water Bottle,Home Goods,Tirunelveli,197,28
+1052,313,Kurti,Textiles,Tirunelveli,218,10
+1088,984,Water Bottle,Home Goods,Erode,125,25
+1006,689,Sandals,Footwear,Salem,110,58
+1056,627,Handbag,Bags,Madurai,60,58
+1095,827,Saree,Textiles,Tirunelveli,104,5
+1084,652,Slippers,Footwear,Trichy,134,58
+1092,795,Lunch Box,Home Goods,Trichy,123,17
+1030,723,Storage Box,Home Goods,Coimbatore,23,61
+1066,723,Shirt,Textiles,Tirunelveli,253,6
+1094,504,Running Shoes,Footwear,Coimbatore,45,86
+1027,690,Backpack,Bags,Tirunelveli,166,28
+1059,129,Shirt,Textiles,Madurai,54,96
+1057,325,Sandals,Footwear,Salem,59,42
+1050,266,Earrings,Accessories,Salem,105,33
+1062,244,Handbag,Bags,Coimbatore,49,60
+1090,336,Handbag,Bags,Trichy,86,28
+1082,627,Shirt,Textiles,Madurai,48,83
+1077,212,Travel Bag,Bags,Madurai,57,55
+1065,111,Bangles,Accessories,Coimbatore,26,52
+1089,775,Running Shoes,Footwear,Coimbatore,41,51
+1005,968,Bracelet,Accessories,Erode,121,43
+1081,552,Travel Bag,Bags,Erode,89,46
+1067,171,Handbag,Bags,Coimbatore,79,53
+1037,599,Kurti,Textiles,Madurai,69,91
+1012,133,Travel Bag,Bags,Coimbatore,51,73
+1013,539,Travel Bag,Bags,Villupuram,212,27
+1051,582,Running Shoes,Footwear,Trichy,86,44
+1015,862,Earrings,Accessories,Coimbatore,51,64
+1038,221,Kurti,Textiles,Salem,57,52
+1020,141,Backpack,Bags,Erode,125,50
+1047,967,Saree,Textiles,Tirunelveli,151,17
+1029,594,Water Bottle,Home Goods,Madurai,57,89
+1051,732,Running Shoes,Footwear,Villupuram,299,21
+1075,661,Bangles,Accessories,Trichy,68,28
+1039,518,Handbag,Bags,Coimbatore,79,87
+1071,732,Backpack,Bags,Salem,86,24
+1050,166,Shirt,Textiles,Coimbatore,64,85
+1076,482,Storage Box,Home Goods,Tirunelveli,111,25
+1093,177,Lunch Box,Home Goods,Madurai,33,49
+1091,555,Shirt,Textiles,Villupuram,265,9
+1048,152,Sandals,Footwear,Tirunelveli,283,13
+1055,897,Shirt,Textiles,Salem,58,50
+1057,318,Lunch Box,Home Goods,Tirunelveli,286,27
+1035,736,Water Bottle,Home Goods,Erode,106,24
+1021,321,Backpack,Bags,Erode,118,43
+1083,782,Storage Box,Home Goods,Villupuram,208,19
+1075,931,Saree,Textiles,Erode,74,48
+1090,623,Saree,Textiles,Coimbatore,67,69
+1065,428,Water Bottle,Home Goods,Trichy,61,51
+1081,924,Handbag,Bags,Salem,65,17
+1062,835,Water Bottle,Home Goods,Trichy,135,38
+1010,203,Saree,Textiles,Madurai,68,54
+1072,446,Storage Box,Home Goods,Coimbatore,70,51
+1078,680,Running Shoes,Footwear,Coimbatore,31,92
+1048,180,Saree,Textiles,Villupuram,249,13
+1083,350,Slippers,Footwear,Tirunelveli,124,27
+1008,968,Saree,Textiles,Madurai,25,59
+1032,975,Bracelet,Accessories,Madurai,75,74
+1087,508,Lunch Box,Home Goods,Salem,55,44
+1008,123,Backpack,Bags,Coimbatore,69,48
+1028,388,Running Shoes,Footwear,Trichy,149,22
+1016,558,Earrings,Accessories,Coimbatore,62,92
+1045,802,Earrings,Accessories,Coimbatore,60,67
+1010,795,Running Shoes,Footwear,Salem,125,16
+1011,727,Backpack,Bags,Madurai,71,92
+1091,502,Necklace,Accessories,Villupuram,264,25
+1074,986,Bracelet,Accessories,Coimbatore,43,50
+1053,414,Slippers,Footwear,Madurai,52,71
+1084,907,Bangles,Accessories,Trichy,111,59
+1030,222,Handbag,Bags,Erode,90,24
+1004,367,Slippers,Footwear,Salem,116,31
+1056,738,Storage Box,Home Goods,Tirunelveli,154,16
+1098,118,Sandals,Footwear,Villupuram,102,7
+1082,824,Travel Bag,Bags,Trichy,77,39
+1056,415,Shirt,Textiles,Villupuram,219,10
+1056,582,Shirt,Textiles,Trichy,52,31
+1003,305,Kurti,Textiles,Coimbatore,75,59
+1036,930,Handbag,Bags,Coimbatore,51,74
+1052,300,Saree,Textiles,Madurai,28,57
+1022,465,Bangles,Accessories,Coimbatore,67,52
+1018,149,Lunch Box,Home Goods,Tirunelveli,227,16
+1067,323,Travel Bag,Bags,Coimbatore,20,53
+1033,137,Saree,Textiles,Coimbatore,44,47
+1081,382,Shirt,Textiles,Madurai,65,90
+1071,842,Bangles,Accessories,Salem,118,35
+1077,268,Bangles,Accessories,Coimbatore,45,61
+1086,167,Saree,Textiles,Trichy,112,57
+1040,647,Handbag,Bags,Madurai,21,86
+1058,771,Lunch Box,Home Goods,Madurai,70,49
+1070,265,Kurti,Textiles,Tirunelveli,207,12
+1052,757,Bracelet,Accessories,Tirunelveli,187,27
+1040,568,Running Shoes,Footwear,Madurai,51,63
+1038,220,Backpack,Bags,Tirunelveli,105,19
+1099,995,Slippers,Footwear,Salem,94,37
+1005,117,Slippers,Footwear,Madurai,67,78
+1001,586,Travel Bag,Bags,Trichy,79,58
+1068,745,Storage Box,Home Goods,Villupuram,100,6
+1028,516,Backpack,Bags,Villupuram,243,25
+1005,145,Storage Box,Home Goods,Madurai,47,73
+1073,922,Water Bottle,Home Goods,Madurai,79,60
+1039,137,Bangles,Accessories,Salem,66,41
+1053,520,Handbag,Bags,Coimbatore,44,88
+1051,970,Storage Box,Home Goods,Madurai,53,88
+1095,565,Lunch Box,Home Goods,Trichy,120,16
+1084,705,Handbag,Bags,Villupuram,105,9
+1064,198,Bracelet,Accessories,Trichy,88,30
+1098,903,Shirt,Textiles,Erode,75,25
+1074,748,Handbag,Bags,Coimbatore,32,57
+1064,750,Saree,Textiles,Trichy,92,41
+1029,699,Running Shoes,Footwear,Tirunelveli,276,5
+1096,139,Travel Bag,Bags,Coimbatore,46,84
+1088,979,Kurti,Textiles,Villupuram,216,8
+1022,440,Water Bottle,Home Goods,Tirunelveli,263,20
+1084,622,Saree,Textiles,Salem,99,33
+1088,247,Kurti,Textiles,Madurai,20,55
+1000,960,Water Bottle,Home Goods,Villupuram,201,25
+1005,273,Shirt,Textiles,Erode,69,21
+1080,904,Earrings,Accessories,Tirunelveli,154,24
+1003,251,Kurti,Textiles,Tirunelveli,164,22
+1054,447,Sandals,Footwear,Coimbatore,71,78
+1077,362,Backpack,Bags,Trichy,140,46
+1029,569,Storage Box,Home Goods,Trichy,57,40
+1066,685,Handbag,Bags,Villupuram,277,26
+1002,141,Slippers,Footwear,Tirunelveli,279,27
+1019,869,Kurti,Textiles,Madurai,21,88
+1009,951,Sandals,Footwear,Coimbatore,58,82
+1031,267,Travel Bag,Bags,Coimbatore,69,81
+1005,689,Kurti,Textiles,Madurai,51,61
+1041,971,Earrings,Accessories,Trichy,91,53
+1090,300,Bangles,Accessories,Salem,79,47
+1095,749,Slippers,Footwear,Trichy,89,26
+1041,881,Saree,Textiles,Trichy,92,34
+1018,166,Bangles,Accessories,Tirunelveli,102,7
+1034,315,Lunch Box,Home Goods,Salem,71,56
+1003,949,Bracelet,Accessories,Madurai,79,97
+1031,984,Lunch Box,Home Goods,Tirunelveli,233,16
+1081,996,Necklace,Accessories,Madurai,47,58
+1075,348,Sandals,Footwear,Villupuram,190,26
+1022,145,Sandals,Footwear,Tirunelveli,257,23
+1088,176,Water Bottle,Home Goods,Villupuram,246,12
+1009,307,Kurti,Textiles,Coimbatore,34,58
+1052,242,Lunch Box,Home Goods,Tirunelveli,228,13
+1078,803,Bangles,Accessories,Coimbatore,43,82
+1052,291,Sandals,Footwear,Madurai,35,64
+1006,604,Travel Bag,Bags,Salem,114,54
+1037,222,Lunch Box,Home Goods,Salem,100,17
+1024,255,Kurti,Textiles,Villupuram,126,7
+1063,464,Necklace,Accessories,Madurai,27,82
+1023,540,Lunch Box,Home Goods,Madurai,67,44
+1081,198,Lunch Box,Home Goods,Coimbatore,33,50
+1014,791,Handbag,Bags,Villupuram,281,9
+1027,390,Running Shoes,Footwear,Coimbatore,20,52
+1046,204,Shirt,Textiles,Coimbatore,28,58
+1032,367,Shirt,Textiles,Trichy,62,46
+1095,883,Sandals,Footwear,Tirunelveli,129,12
+1093,921,Handbag,Bags,Tirunelveli,101,21
+1071,595,Bangles,Accessories,Tirunelveli,226,11
+1057,640,Lunch Box,Home Goods,Villupuram,115,26
+1081,173,Bangles,Accessories,Villupuram,226,29
+1066,875,Bracelet,Accessories,Villupuram,180,24
+1067,538,Water Bottle,Home Goods,Erode,78,33
+1050,384,Earrings,Accessories,Villupuram,283,17
+1026,678,Backpack,Bags,Madurai,39,96
+1026,564,Running Shoes,Footwear,Erode,83,23
+1022,979,Bangles,Accessories,Trichy,75,57
+1092,708,Slippers,Footwear,Erode,52,50
+1049,882,Slippers,Footwear,Tirunelveli,282,19
+1023,784,Bangles,Accessories,Salem,131,50
+1000,616,Bracelet,Accessories,Madurai,77,59
+1003,775,Bangles,Accessories,Coimbatore,22,48
+1098,979,Necklace,Accessories,Trichy,70,46
+1064,181,Slippers,Footwear,Madurai,31,58
+1075,869,Kurti,Textiles,Salem,50,55
+1050,658,Backpack,Bags,Madurai,39,99
+1057,250,Sandals,Footwear,Villupuram,174,18
+1007,507,Running Shoes,Footwear,Coimbatore,47,52
+1001,147,Handbag,Bags,Coimbatore,60,90
+1020,368,Sandals,Footwear,Salem,126,31
+1087,683,Shirt,Textiles,Trichy,106,36
+1046,979,Bracelet,Accessories,Coimbatore,39,48
+1075,193,Earrings,Accessories,Salem,136,23
+1066,407,Slippers,Footwear,Madurai,51,81
+1073,635,Earrings,Accessories,Salem,136,55
+1072,163,Saree,Textiles,Coimbatore,36,69
+1003,479,Handbag,Bags,Villupuram,185,6
+1095,188,Bracelet,Accessories,Salem,148,52
+1065,742,Travel Bag,Bags,Villupuram,205,17
+1081,311,Shirt,Textiles,Trichy,147,35
+1039,395,Saree,Textiles,Coimbatore,57,97
+1080,839,Sandals,Footwear,Madurai,47,83
+1082,856,Sandals,Footwear,Trichy,75,24
+1068,799,Backpack,Bags,Tirunelveli,125,22
+1044,137,Kurti,Textiles,Coimbatore,50,88
+1013,658,Kurti,Textiles,Coimbatore,29,91
+1084,867,Slippers,Footwear,Villupuram,299,25
+1024,578,Bangles,Accessories,Salem,76,47
+1056,823,Backpack,Bags,Trichy,125,39
+1013,204,Handbag,Bags,Salem,56,46
+1001,769,Slippers,Footwear,Salem,109,34
+1069,380,Handbag,Bags,Salem,126,29
+1042,433,Earrings,Accessories,Trichy,68,37
+1004,975,Shirt,Textiles,Madurai,55,99
+1083,577,Sandals,Footwear,Coimbatore,31,71
+1099,742,Earrings,Accessories,Salem,61,22
+1089,119,Storage Box,Home Goods,Tirunelveli,277,7
+1060,293,Slippers,Footwear,Coimbatore,22,65
+1097,576,Handbag,Bags,Madurai,50,80
+1009,403,Earrings,Accessories,Tirunelveli,251,26
+1043,169,Saree,Textiles,Tirunelveli,258,19
+1033,810,Bracelet,Accessories,Madurai,51,73
+1070,751,Travel Bag,Bags,Villupuram,260,11
+1012,546,Running Shoes,Footwear,Tirunelveli,243,18
+1005,337,Bracelet,Accessories,Villupuram,259,28
+1083,856,Shirt,Textiles,Trichy,71,55
+1023,435,Kurti,Textiles,Madurai,27,90
+1053,671,Storage Box,Home Goods,Madurai,76,88
+1051,292,Shirt,Textiles,Coimbatore,56,97
+1034,739,Necklace,Accessories,Villupuram,277,10
+1077,233,Sandals,Footwear,Trichy,128,46
+1074,522,Water Bottle,Home Goods,Tirunelveli,172,15
+1039,861,Backpack,Bags,Coimbatore,37,46
+1048,132,Storage Box,Home Goods,Salem,97,23
+1039,792,Travel Bag,Bags,Madurai,47,64
+1042,656,Handbag,Bags,Villupuram,166,6
+1031,482,Bracelet,Accessories,Coimbatore,55,75
+1091,104,Saree,Textiles,Erode,107,59
+1013,463,Bracelet,Accessories,Coimbatore,54,40
+1082,709,Travel Bag,Bags,Madurai,60,46
+1009,306,Bangles,Accessories,Villupuram,184,11
+1089,544,Water Bottle,Home Goods,Coimbatore,64,72
+1066,873,Earrings,Accessories,Salem,66,42
+1008,868,Earrings,Accessories,Madurai,71,54
+1008,113,Handbag,Bags,Erode,135,33
+1057,412,Storage Box,Home Goods,Tirunelveli,250,22
+1021,502,Handbag,Bags,Salem,132,50
+1069,654,Bangles,Accessories,Coimbatore,55,50
+1015,847,Bracelet,Accessories,Erode,105,15
+1023,657,Shirt,Textiles,Tirunelveli,177,17
+1014,643,Bracelet,Accessories,Trichy,52,25
+1047,802,Slippers,Footwear,Coimbatore,37,69
+1017,739,Backpack,Bags,Villupuram,289,23
+1048,103,Backpack,Bags,Villupuram,234,25
+1073,773,Bangles,Accessories,Trichy,59,27
+1038,902,Travel Bag,Bags,Madurai,39,68
+1029,867,Travel Bag,Bags,Tirunelveli,215,5
+1055,942,Necklace,Accessories,Salem,105,50
+1091,884,Bangles,Accessories,Villupuram,288,29
+1048,997,Lunch Box,Home Goods,Villupuram,209,25
+1049,930,Running Shoes,Footwear,Trichy,104,30
+1050,194,Shirt,Textiles,Salem,108,50
+1094,177,Slippers,Footwear,Madurai,61,53
+1034,547,Handbag,Bags,Villupuram,280,13
+1090,337,Handbag,Bags,Villupuram,227,25
+1013,450,Kurti,Textiles,Tirunelveli,155,13
+1076,688,Water Bottle,Home Goods,Villupuram,286,16
+1015,977,Slippers,Footwear,Erode,145,20
+1082,590,Backpack,Bags,Coimbatore,24,66
+1052,609,Earrings,Accessories,Tirunelveli,227,28
+1083,286,Storage Box,Home Goods,Villupuram,275,27
+1063,840,Shirt,Textiles,Madurai,33,76
+1078,467,Slippers,Footwear,Tirunelveli,155,16
+1091,653,Handbag,Bags,Trichy,99,30
+1058,817,Sandals,Footwear,Erode,91,25
+1051,941,Travel Bag,Bags,Villupuram,169,29
+1097,448,Saree,Textiles,Salem,89,51
+1063,169,Storage Box,Home Goods,Villupuram,231,24
+1050,882,Saree,Textiles,Coimbatore,44,91
+1058,374,Slippers,Footwear,Trichy,57,38
+1006,536,Earrings,Accessories,Tirunelveli,297,8
+1012,387,Running Shoes,Footwear,Tirunelveli,297,12
+1100,822,Sandals,Footwear,Villupuram,202,11
+1009,461,Saree,Textiles,Salem,125,25
+1091,542,Water Bottle,Home Goods,Tirunelveli,151,18
+1027,866,Kurti,Textiles,Trichy,80,29
+1087,680,Bangles,Accessories,Tirunelveli,137,13
+1003,664,Sandals,Footwear,Tirunelveli,211,18
+1084,967,Sandals,Footwear,Tirunelveli,177,14
+1095,168,Backpack,Bags,Villupuram,127,19
+1047,704,Slippers,Footwear,Trichy,60,27
+1033,377,Kurti,Textiles,Trichy,110,49
+1033,261,Kurti,Textiles,Tirunelveli,140,26
+1018,973,Travel Bag,Bags,Coimbatore,70,71
+1027,564,Storage Box,Home Goods,Salem,105,23
+1097,690,Handbag,Bags,Coimbatore,79,91
+1030,841,Saree,Textiles,Coimbatore,21,52
+1002,416,Shirt,Textiles,Villupuram,136,16
+1075,365,Handbag,Bags,Tirunelveli,256,8
+1032,718,Lunch Box,Home Goods,Trichy,56,40
+1068,193,Saree,Textiles,Villupuram,129,23
+1007,247,Slippers,Footwear,Erode,52,27
+1079,972,Bracelet,Accessories,Trichy,115,35
+1032,156,Lunch Box,Home Goods,Trichy,52,47
+1075,510,Handbag,Bags,Salem,118,43
+1034,138,Saree,Textiles,Tirunelveli,240,8
+1060,571,Storage Box,Home Goods,Villupuram,237,12
+1080,357,Backpack,Bags,Tirunelveli,151,5
+1075,472,Water Bottle,Home Goods,Trichy,92,42
+1010,467,Bracelet,Accessories,Tirunelveli,117,6
+1063,548,Backpack,Bags,Madurai,66,72
+1035,386,Necklace,Accessories,Erode,147,16
+1060,714,Bracelet,Accessories,Madurai,54,65
+1074,456,Shirt,Textiles,Coimbatore,66,42
+1092,354,Handbag,Bags,Trichy,107,47
+1027,311,Lunch Box,Home Goods,Trichy,98,58
+1057,149,Lunch Box,Home Goods,Trichy,65,26
+1098,835,Bracelet,Accessories,Salem,74,19
+1047,537,Running Shoes,Footwear,Madurai,55,71
+1069,134,Travel Bag,Bags,Erode,52,23
+1091,731,Necklace,Accessories,Coimbatore,42,81
+1008,157,Kurti,Textiles,Salem,76,50
+1002,472,Bangles,Accessories,Coimbatore,51,52
+1009,634,Kurti,Textiles,Salem,124,29
+1015,912,Handbag,Bags,Tirunelveli,158,18
+1047,972,Storage Box,Home Goods,Coimbatore,71,57
+1085,233,Kurti,Textiles,Salem,95,53
+1009,194,Handbag,Bags,Coimbatore,68,99
+1074,641,Kurti,Textiles,Villupuram,185,11
+1055,156,Lunch Box,Home Goods,Villupuram,106,18
+1019,584,Running Shoes,Footwear,Salem,143,43
+1055,167,Saree,Textiles,Coimbatore,42,92
+1054,111,Necklace,Accessories,Villupuram,189,18
+1070,614,Handbag,Bags,Trichy,102,30
+1045,193,Water Bottle,Home Goods,Tirunelveli,150,6
+1045,145,Handbag,Bags,Salem,79,45
+1061,219,Shirt,Textiles,Coimbatore,72,87
+1055,189,Handbag,Bags,Erode,139,56
+1055,937,Handbag,Bags,Villupuram,269,18
+1052,227,Storage Box,Home Goods,Tirunelveli,160,24
+1020,354,Bracelet,Accessories,Coimbatore,68,73
+1020,836,Water Bottle,Home Goods,Villupuram,172,28
+1085,434,Lunch Box,Home Goods,Tirunelveli,126,18
+1006,303,Storage Box,Home Goods,Salem,94,57
+1021,290,Bangles,Accessories,Villupuram,217,20
+1036,572,Earrings,Accessories,Tirunelveli,161,29
+1100,318,Water Bottle,Home Goods,Salem,77,18
+1059,217,Sandals,Footwear,Trichy,137,40
+1007,674,Earrings,Accessories,Madurai,57,42
+1039,304,Sandals,Footwear,Villupuram,169,16
+1062,885,Lunch Box,Home Goods,Tirunelveli,271,24
+1026,579,Earrings,Accessories,Salem,136,59
+1087,855,Shirt,Textiles,Trichy,146,21
+1037,828,Slippers,Footwear,Erode,94,35
+1087,794,Bangles,Accessories,Coimbatore,51,95
+1061,212,Sandals,Footwear,Trichy,96,15
+1015,399,Backpack,Bags,Salem,65,26
+1061,412,Storage Box,Home Goods,Coimbatore,78,50
+1035,545,Backpack,Bags,Salem,95,30
+1065,671,Bracelet,Accessories,Villupuram,107,9
+1028,490,Handbag,Bags,Trichy,143,48
+1080,633,Handbag,Bags,Coimbatore,78,93
+1070,207,Shirt,Textiles,Erode,91,56
+1040,244,Water Bottle,Home Goods,Erode,59,18
+1015,938,Water Bottle,Home Goods,Coimbatore,53,75
+1031,299,Kurti,Textiles,Salem,80,29
+1061,454,Sandals,Footwear,Madurai,43,79
+1038,541,Saree,Textiles,Villupuram,295,17
+1074,159,Sandals,Footwear,Villupuram,185,27
+1037,598,Kurti,Textiles,Tirunelveli,159,22
+1093,504,Bracelet,Accessories,Erode,133,38
+1046,885,Backpack,Bags,Tirunelveli,116,9
+1074,569,Travel Bag,Bags,Tirunelveli,213,11
+1065,344,Sandals,Footwear,Madurai,41,85
+1077,304,Bangles,Accessories,Trichy,95,34
+1025,385,Shirt,Textiles,Erode,73,50
+1012,640,Slippers,Footwear,Salem,125,25
+1043,512,Water Bottle,Home Goods,Madurai,60,88
+1077,399,Bracelet,Accessories,Coimbatore,59,87
+1002,163,Running Shoes,Footwear,Tirunelveli,232,5
+1029,977,Travel Bag,Bags,Villupuram,140,11
+1041,209,Travel Bag,Bags,Salem,111,38
+1019,587,Shirt,Textiles,Madurai,26,69
+1078,885,Kurti,Textiles,Madurai,66,70
+1075,422,Running Shoes,Footwear,Salem,102,16
+1055,709,Backpack,Bags,Salem,104,40
+1079,159,Slippers,Footwear,Erode,104,59
+1041,529,Sandals,Footwear,Coimbatore,55,75
+1019,503,Running Shoes,Footwear,Madurai,45,97
+1072,533,Sandals,Footwear,Tirunelveli,163,8
+1081,487,Water Bottle,Home Goods,Trichy,130,43
+1094,409,Bracelet,Accessories,Coimbatore,30,75
+1094,485,Sandals,Footwear,Madurai,33,55
+1086,221,Sandals,Footwear,Trichy,53,18
+1024,841,Handbag,Bags,Villupuram,283,21
+1022,978,Travel Bag,Bags,Tirunelveli,174,11
+1016,739,Kurti,Textiles,Coimbatore,38,94
+1080,557,Slippers,Footwear,Salem,65,28
+1050,284,Earrings,Accessories,Erode,135,26
+1057,612,Running Shoes,Footwear,Coimbatore,79,69
+1076,986,Shirt,Textiles,Villupuram,215,17
+1094,241,Handbag,Bags,Villupuram,147,11
+1084,617,Necklace,Accessories,Madurai,21,66
+1070,451,Kurti,Textiles,Madurai,77,63
+1088,901,Backpack,Bags,Madurai,25,47
+1005,444,Backpack,Bags,Tirunelveli,184,18
+1026,201,Earrings,Accessories,Coimbatore,78,41
+1087,540,Water Bottle,Home Goods,Madurai,62,63
+1027,224,Backpack,Bags,Coimbatore,36,85
+1002,746,Travel Bag,Bags,Villupuram,209,5
+1021,811,Shirt,Textiles,Madurai,60,93
+1086,770,Kurti,Textiles,Trichy,107,19
+1065,565,Running Shoes,Footwear,Tirunelveli,148,20
+1091,997,Travel Bag,Bags,Tirunelveli,194,14
+1054,394,Slippers,Footwear,Coimbatore,57,56
+1095,381,Storage Box,Home Goods,Tirunelveli,218,17
+1005,274,Backpack,Bags,Trichy,141,56
+1090,132,Running Shoes,Footwear,Erode,60,15
+1098,378,Saree,Textiles,Trichy,77,57
+1089,920,Backpack,Bags,Tirunelveli,238,14
+1002,955,Bracelet,Accessories,Trichy,88,52
+1020,186,Lunch Box,Home Goods,Coimbatore,24,94
+1041,634,Storage Box,Home Goods,Coimbatore,78,75
+1023,765,Slippers,Footwear,Madurai,51,91
+1074,336,Saree,Textiles,Erode,101,30
+1050,523,Bracelet,Accessories,Madurai,30,96
+1046,274,Backpack,Bags,Erode,88,57
+1046,561,Bracelet,Accessories,Coimbatore,32,61
+1062,668,Water Bottle,Home Goods,Salem,93,29
+1043,649,Saree,Textiles,Coimbatore,44,83
+1027,267,Sandals,Footwear,Coimbatore,47,62
+1050,256,Backpack,Bags,Villupuram,198,24
+1058,222,Earrings,Accessories,Villupuram,256,18
+1097,533,Slippers,Footwear,Salem,107,41
+1066,671,Sandals,Footwear,Trichy,63,23
+1065,579,Bracelet,Accessories,Madurai,74,82
+1020,406,Travel Bag,Bags,Coimbatore,63,62
+1078,101,Kurti,Textiles,Madurai,79,85
+1041,228,Travel Bag,Bags,Coimbatore,45,72
+1002,131,Slippers,Footwear,Villupuram,223,19
+1091,403,Slippers,Footwear,Erode,95,33
+1029,115,Necklace,Accessories,Madurai,54,78
+1019,642,Storage Box,Home Goods,Erode,99,34
+1042,309,Bangles,Accessories,Tirunelveli,149,6
+1019,491,Saree,Textiles,Trichy,121,29
+1016,413,Earrings,Accessories,Madurai,47,86
+1088,125,Earrings,Accessories,Erode,52,43
+1022,762,Sandals,Footwear,Tirunelveli,154,6
+1032,301,Handbag,Bags,Madurai,60,44
+1035,421,Kurti,Textiles,Tirunelveli,160,12
+1099,314,Shirt,Textiles,Trichy,119,58
+1068,323,Handbag,Bags,Erode,132,48
+1043,129,Sandals,Footwear,Erode,141,29
+1054,560,Lunch Box,Home Goods,Coimbatore,28,91
+1046,330,Water Bottle,Home Goods,Villupuram,159,19
+1058,119,Bangles,Accessories,Villupuram,157,7
+1083,230,Storage Box,Home Goods,Madurai,54,44
+1078,669,Bangles,Accessories,Villupuram,210,5
+1015,175,Lunch Box,Home Goods,Coimbatore,37,79
+1009,517,Storage Box,Home Goods,Coimbatore,64,42
+1009,390,Bangles,Accessories,Salem,69,45
+1010,610,Slippers,Footwear,Trichy,64,40
+1044,352,Shirt,Textiles,Erode,128,55
+1006,110,Running Shoes,Footwear,Erode,92,58
+1056,387,Bracelet,Accessories,Salem,60,36
+1045,913,Travel Bag,Bags,Madurai,21,46
+1004,620,Backpack,Bags,Villupuram,210,5
+1036,948,Earrings,Accessories,Villupuram,212,8
+1055,310,Lunch Box,Home Goods,Salem,103,39
+1025,470,Water Bottle,Home Goods,Trichy,135,43
+1043,605,Kurti,Textiles,Tirunelveli,105,22
+1079,162,Necklace,Accessories,Salem,124,52
+1091,938,Sandals,Footwear,Erode,115,44
+1008,544,Handbag,Bags,Tirunelveli,166,22
+1027,535,Kurti,Textiles,Villupuram,163,5

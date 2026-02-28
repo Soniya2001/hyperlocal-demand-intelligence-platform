@@ -91,7 +91,7 @@
 
 ## Technology Highlights
 
-- **Frontend**: Web-based dashboard (React)
+- **Frontend**: Web-based dashboard (Python based)
 - **Backend**: Python services
 - **AI/ML**: Scikit-learn, Pandas, NumPy
 - **Storage**: Cloud-based data storage (AWS)
