@@ -17,9 +17,10 @@ page = st.sidebar.selectbox(
 
 # Page Routing Logic
 if page == "Dashboard":
-    st.header("Dashboard Overview")
 
     df = pd.read_csv("hyperlocal_inventory_data.csv")
+
+    st.header("Dashboard Overview")
 
     # Basic metrics
     total_products = len(df)
@@ -28,30 +29,37 @@ if page == "Dashboard":
     df["sales_velocity"] = df["monthly_sales"] / df["stock_quantity"]
     slow_moving = df[df["sales_velocity"] < 0.2]
 
-    # Forecast model
+    # ---- ML MODEL ----
     df_encoded = pd.get_dummies(df, columns=["region", "category"])
+
     X = df_encoded.drop(columns=["monthly_sales", "product_name"])
     y = df_encoded["monthly_sales"]
 
     from sklearn.linear_model import LinearRegression
     model = LinearRegression()
     model.fit(X, y)
-    df["predicted_sales"] = model.predict(X)
 
-    # Region summary
+    df["predicted_sales"] = model.predict(X)
+        # ---- REGION SUMMARY ----
     region_summary = df.groupby("region").agg({
         "stock_quantity": "sum",
         "predicted_sales": "sum"
     }).reset_index()
 
     region_summary["demand_ratio"] = (
-        region_summary["predicted_sales"] / region_summary["stock_quantity"]
+        region_summary["predicted_sales"] /
+        region_summary["stock_quantity"]
     )
 
-    high_demand_regions = region_summary[region_summary["demand_ratio"] > 0.6]
-    surplus_regions = region_summary[region_summary["demand_ratio"] < 0.25]
+    high_demand_regions = region_summary[
+        region_summary["demand_ratio"] > 0.6
+    ]
 
-    # KPI Cards
+    surplus_regions = region_summary[
+        region_summary["demand_ratio"] < 0.25
+    ]
+
+    # ---- KPI CARDS ----
     col1, col2, col3, col4 = st.columns(4)
 
     col1.metric("Total Products", total_products)
@@ -61,10 +69,101 @@ if page == "Dashboard":
 
     st.divider()
 
-    # Region Demand Visualization
+    st.subheader("💰 Business Impact Metrics")
+
+    # Estimated lost revenue (if demand > stock)
+    df["revenue_risk"] = df.apply(
+        lambda row:
+        (row["predicted_sales"] - row["stock_quantity"]) * 500
+        if row["predicted_sales"] > row["stock_quantity"]
+        else 0,
+        axis=1
+        )
+
+    # Estimated holding cost (if surplus stock)
+    df["holding_cost"] = df.apply(
+        lambda row:
+        (row["stock_quantity"] - row["predicted_sales"]) * 50
+        if row["stock_quantity"] > row["predicted_sales"]
+        else 0,
+        axis=1
+        )
+
+    lost_revenue = int(df["revenue_risk"].sum())
+    holding_cost = int(df["holding_cost"].sum())
+
+    colA, colB = st.columns(2)
+
+    colA.metric("Potential Lost Revenue (₹)", f"{lost_revenue:,}")
+    colB.metric("Estimated Holding Cost (₹)", f"{holding_cost:,}")
+
+
+    st.subheader("🔄 Intelligent Redistribution Plan")
+
+    high_regions = region_summary[
+        region_summary["demand_ratio"] > 0.6
+    ].copy()
+
+    surplus_regions = region_summary[
+        region_summary["demand_ratio"] < 0.25
+    ].copy()
+
+    # Calculate demand gap and surplus excess
+    high_regions["demand_gap"] = (
+        high_regions["predicted_sales"] -
+        high_regions["stock_quantity"]
+    )
+
+    surplus_regions["excess_stock"] = (
+        surplus_regions["stock_quantity"] -
+        surplus_regions["predicted_sales"]
+    )
+
+    high_regions = high_regions.sort_values(
+        by="demand_gap", ascending=False
+    )
+
+    surplus_regions = surplus_regions.sort_values(
+        by="excess_stock", ascending=False
+    )
+
+    redistribution_plan = []
+
+    for _, high in high_regions.iterrows():
+
+        remaining_gap = high["demand_gap"]
+
+        for idx, surplus in surplus_regions.iterrows():
+
+            if remaining_gap <= 0:
+                break
+
+            available = surplus["excess_stock"]
+
+            if available > 0 and remaining_gap > 0:
+
+                transfer = int(min(remaining_gap, available))
+
+                if transfer > 0:
+                    redistribution_plan.append({
+                        "From Region": surplus["region"],
+                        "To Region": high["region"],
+                        "Units to Transfer": transfer
+                    })
+
+                surplus_regions.at[idx, "excess_stock"] -= transfer
+                remaining_gap -= transfer
+
+    if redistribution_plan:
+        st.dataframe(pd.DataFrame(redistribution_plan))
+    else:
+        st.success("Stock levels are balanced. No redistribution required.")
+
+    # ---- CHART ----
     st.subheader("Region Demand Forecast")
     st.bar_chart(region_summary.set_index("region")["demand_ratio"])
 
+    # ---- TABLE ----
     st.subheader("Top 5 Slow Moving Products")
     st.dataframe(
         slow_moving[[
@@ -188,3 +287,43 @@ elif page == "Matching & Recommendations":
 
     st.subheader("Forecast-Based Region Demand Analysis")
     st.dataframe(region_summary)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
