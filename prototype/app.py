@@ -22,6 +22,8 @@ if page == "Dashboard":
 
     st.header("Dashboard Overview")
 
+    st.header("Dashboard Overview")
+
     # Basic metrics
     total_products = len(df)
     total_stock = df["stock_quantity"].sum()
@@ -30,7 +32,9 @@ if page == "Dashboard":
     slow_moving = df[df["sales_velocity"] < 0.2]
 
     # ---- ML MODEL ----
+    # ---- ML MODEL ----
     df_encoded = pd.get_dummies(df, columns=["region", "category"])
+
 
     X = df_encoded.drop(columns=["monthly_sales", "product_name"])
     y = df_encoded["monthly_sales"]
@@ -39,7 +43,9 @@ if page == "Dashboard":
     model = LinearRegression()
     model.fit(X, y)
 
+
     df["predicted_sales"] = model.predict(X)
+        # ---- REGION SUMMARY ----
         # ---- REGION SUMMARY ----
     region_summary = df.groupby("region").agg({
         "stock_quantity": "sum",
@@ -47,6 +53,8 @@ if page == "Dashboard":
     }).reset_index()
 
     region_summary["demand_ratio"] = (
+        region_summary["predicted_sales"] /
+        region_summary["stock_quantity"]
         region_summary["predicted_sales"] /
         region_summary["stock_quantity"]
     )
@@ -58,7 +66,15 @@ if page == "Dashboard":
     surplus_regions = region_summary[
         region_summary["demand_ratio"] < 0.25
     ]
+    high_demand_regions = region_summary[
+        region_summary["demand_ratio"] > 0.6
+    ]
 
+    surplus_regions = region_summary[
+        region_summary["demand_ratio"] < 0.25
+    ]
+
+    # ---- KPI CARDS ----
     # ---- KPI CARDS ----
     col1, col2, col3, col4 = st.columns(4)
 
@@ -236,6 +252,7 @@ if page == "Dashboard":
     st.bar_chart(region_summary.set_index("region")["demand_ratio"])
 
     # ---- TABLE ----
+    # ---- TABLE ----
     st.subheader("Top 5 Slow Moving Products")
     st.dataframe(
         slow_moving[[
@@ -359,6 +376,46 @@ elif page == "Matching & Recommendations":
 
     st.subheader("Forecast-Based Region Demand Analysis")
     st.dataframe(region_summary)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
