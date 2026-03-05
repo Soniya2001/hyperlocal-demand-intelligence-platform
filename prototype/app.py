@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import boto3
+import json
 
 st.set_page_config(page_title="OneMindAI", layout="wide")
 
@@ -218,7 +220,7 @@ if page == "Dashboard":
 
         response = bedrock.invoke_model(
             body=body,
-            modelId="anthropic.claude-haiku-4-5-20251001-v1:0",
+            modelId="arn:aws:bedrock:ap-south-1:752995910188:inference-profile/apac.anthropic.claude-3-haiku-20240307-v1:0",
             accept="application/json",
             contentType="application/json"
         )
