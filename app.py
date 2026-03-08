@@ -15,6 +15,23 @@ st.set_page_config(
 
 # App Title
 st.title("OneMindAI – Hyperlocal Demand Intelligence Platform")
+st.markdown("""
+AI-powered platform that helps retailers **detect supply-demand imbalance**, 
+**forecast regional demand**, and **optimize inventory distribution** using Machine Learning and Generative AI.
+
+### 🚀 Key Capabilities
+- 📈 **Demand Forecasting** using Machine Learning
+- 📦 **Inventory Classification** to detect slow-moving products
+- 🔄 **Hyperlocal Redistribution Engine** to balance regional supply
+- 🤖 **GenAI Strategic Insights** powered by AWS Bedrock
+
+---
+""")
+st.info(
+"This prototype demonstrates how AI can identify supply-demand imbalance "
+"across regions and recommend intelligent inventory redistribution to reduce "
+"lost revenue and holding costs. The demo uses synthetic retail data for illustration."
+)
 
 # Sidebar
 st.sidebar.title("Seller Panel")
