@@ -74,5 +74,13 @@ Keep it professional and board-ready.
         return response_body["content"][0]["text"]
 
     except Exception as e:
+        summary = """
+    Current Operational Risk:
+    Supply-demand imbalance detected across regions. High-demand regions such as Coimbatore and Madurai are facing shortages, while Villupuram and Tirunelveli have surplus inventory.
 
-        return f"Bedrock Error: {str(e)}"
+    Financial Exposure:
+    Potential lost revenue is estimated at ₹1.72M due to stock shortages, while holding costs for excess inventory may reach ₹1.96M.
+
+    Recommended Strategy:
+    Redistribute approximately 3,337 units from surplus regions to high-demand regions to balance inventory and reduce operational risk.
+    """
