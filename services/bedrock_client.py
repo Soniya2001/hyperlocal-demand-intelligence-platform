@@ -84,3 +84,4 @@ Keep it professional and board-ready.
     Recommended Strategy:
     Redistribute approximately 3,337 units from surplus regions to high-demand regions to balance inventory and reduce operational risk.
     """
+        return summary
